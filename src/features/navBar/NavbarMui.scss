@@ -1,0 +1,32 @@
+.appBar{
+  background-color: black;
+}
+
+.navlinks {
+  margin-left: 20px;
+  //margin-right: 20px;
+  padding: 0 2%;
+  display: flex;
+  }
+
+ .logo {
+    flex-grow: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    //padding: 0 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    :hover  {
+      color: yellow;
+      border-bottom: 1px solid white;
+    }
+  }
+
+  
